@@ -3,7 +3,14 @@
 * Course: Distributed Systems
 * Aarhus University fall 2021
 
-This project is a part of the Distributed Systems coursework. It implements a peer-to-peer network with a blockchain ledger and RSA encryption for secure transactions.
+This project is a part of the Distributed Systems coursework.
+It implements a peer-to-peer network with a blockchain ledger and RSA encryption for secure transactions.
+The main functionalities of the project include:
+
+Peer-to-Peer Network: The network is created by peers connecting to each other. Each peer maintains a list of other peers in the network.
+Account Ledger: Manages account creation, balance management, and transaction handling.
+Blockchain: The blockchain is used to store transactions securely. Each block contains a list of transaction IDs and is signed using RSA.
+RSA Encryption: RSA is used to encrypt and decrypt messages, as well as to sign and verify transactions and blocks.
 
 ## Project Files
 
